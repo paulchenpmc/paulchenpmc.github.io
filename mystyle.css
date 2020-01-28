@@ -57,6 +57,12 @@ a:active {
   margin-right: 25%;
 }
 
+.content img {
+  object-fit: contain;
+  margin-bottom: 20px;
+  height: 60vh;
+}
+
 .content h4 {
   font-size: 1.5em;
   margin: 10px 0;
@@ -68,4 +74,5 @@ a:active {
   border-bottom-style: solid;
   border-width: 1px;
   border-color: lightgray;
+  line-height: 2em;
 }
