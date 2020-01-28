@@ -5,7 +5,6 @@
 .banner {
   display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     flex-direction: col;
 }
 
@@ -15,8 +14,6 @@
 
 .navbar {
     display: flex;
-    /* justify-content: right; */
-    /* align-items: center; */
     flex-direction: col;
   }
 
@@ -26,6 +23,10 @@
   align-items: center;
 
   margin: 5px;
+}
+
+.banner h3 {
+  color: #2b2d2f;
 }
 
 a:link {
@@ -50,5 +51,21 @@ a:active {
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.content h4 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.content > .content_text {
+  display: flex;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
 }
