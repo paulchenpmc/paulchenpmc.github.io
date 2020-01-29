@@ -83,6 +83,11 @@ a:active {
   line-height: 2em;
 }
 
+.content_text > .rows {
+  display: flex;
+  flex-direction: column;
+}
+
 .image-text-container {
   display: flex;
   flex-direction: row;
