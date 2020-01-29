@@ -120,3 +120,32 @@ li {
   padding: 8px 14px;
   border-radius: 20px;
 }
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+
+th {
+  margin-top: 5px;
+  margin-right: 5px;
+  background-color: lightgray;
+  display: inline-block;
+  font-size: 0.85em;
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+th > a:link {
+  color: #2b2d2f;
+}
+
+th > a:visited {
+  color: #2b2d2f;
+}
+
+th:hover {
+  transform: scale(1.1);
+}
