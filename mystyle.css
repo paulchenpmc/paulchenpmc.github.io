@@ -60,7 +60,7 @@ a:active {
 .content img.tall {
   object-fit: contain;
   margin-bottom: 20px;
-  height: 60vh;
+  height: 350px;
 }
 
 .content img.wide {
